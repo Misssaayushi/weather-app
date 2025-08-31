@@ -1,0 +1,38 @@
+body{
+  font-family: "Roboto", sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+.WeatherConatiner{
+  width: 400px;
+  height: 500px;
+  border: 2px solid none;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom right, plum , lavender);;
+  box-shadow: 2px 2px 0.2px rgb(146, 129, 146);
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+ flex-direction: column;
+
+}
+#weatherBody{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+h1{
+  text-align: center;
+}
+#Fetchcity{
+  font-size: larger;
+}
+#SubmitCityName{
+  font-size: large;
+  padding: 5px;
+}
